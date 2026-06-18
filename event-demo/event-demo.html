@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event propagation Demonstration && Rendering pipeline section</title>
+    <link rel="stylesheet" href="event-demo.css">
+</head>
+<body>
+    <main>
+        <div class="dada">
+            Grandparent
+            <div class="baap">Parent
+                <div class="bachha">Child</div>
+            </div>
+        </div>
+    </main>
+<section class="pipeline">
+
+    <h1>Browser Rendering Pipeline</h1>
+   <div class="result">
+
+ <div class="flow">
+   
+           <div class="box">HTML</div>
+           <div class="arrow">➡️</div>
+   
+           <div class="box">Parsing</div>
+           <div class="arrow">➡️</div>
+   
+           <div class="box">Tokenization</div>
+           <div class="arrow">⬇️</div>
+   
+           <div class="box">DOM Tree</div>
+   
+       </div>
+ <div class="flow">
+   
+           <div class="box">CSS</div>
+           <div class="arrow">➡️</div>
+   
+           <div class="box">CSSOM Tree</div>
+           <div class="arrow">➡️</div>
+   
+           <div class="box">DOM Tree + CSSOM Tree</div>
+           <div class="arrow">⬇️</div>
+   
+           <div class="box">Render Tree</div>
+   
+       </div>
+   </div>
+
+</section>
+
+
+
+    <script src="event-demo.js"></script>
+</body>
+</html>

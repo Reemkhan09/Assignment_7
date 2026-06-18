@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+main{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dada{
+    width: 400px;
+    padding: 60px;
+    background-color: chocolate;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.baap{
+    padding: 60px;
+    background-color: coral;
+}
+
+.bachha{
+    padding: 60px;
+    background-color: lightsalmon;
+}
+
+section{
+    width: 100%;
+    height: 50%;
+    margin-top: 100px;
+}
+.pipeline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.result{
+  display: flex;
+  gap: 100px;
+  margin-top: 1rem;
+}
+
+.flow{
+      display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.box{
+    padding:20px;
+    background:#4CAF50;
+    color:white;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.arrow{
+    font-size:25px;
+}
+
+ 
